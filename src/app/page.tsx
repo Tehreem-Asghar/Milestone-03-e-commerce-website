@@ -37,7 +37,7 @@ export default function Home() {
          </section>
            {/* about */}
          <section className=" h-auto  mx-4 mt-20  flex lg:flex-row flex-col">
-          <div className="lg:w-1/2 w-full  flex justify-center  ">
+          <div className="lg:w-1/2 w-full h-[380px]  flex justify-center  ">
             <Image src={'/image/Image.png'}  height={556} width={599} alt="healthy food"  className="h-[380] w-full"/>
           </div>
           <div className="lg:w-1/2 w-full  mt-8 md:pr-9 h-auto md:pl-9 p-2">
