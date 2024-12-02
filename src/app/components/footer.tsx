@@ -17,7 +17,7 @@ function Footer() {
               Bistro Bliss
             </h4>
           </div>
-          <p className="text-[#ADB29E]">
+          <p className="text-white">
             In the new era of technology we look a <br />
             in the future with certainty and pride to <br /> for our company
             and.
@@ -43,7 +43,7 @@ function Footer() {
 
         <div className="sm:ml-9 grid justify-center items-center ">
           <h4 className="text-white font-bold mb-2  ">Pages</h4>
-          <div className="text-[#ADB29E]  grid gap-5">
+          <div className="text-white  grid gap-5">
             <Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
             <Link href={"/menue"}>Menue</Link>
@@ -54,7 +54,7 @@ function Footer() {
 
         <div className="grid justify-center items-center  ml-6 sm:ml-0">
           <h4 className="text-white font-bold mb-3 ">Utility Pages</h4>
-          <div className="text-[#ADB29E]  grid gap-5">
+          <div className="text-white  grid gap-5">
             <p>Start Here</p>
             <p>Styleguide</p>
             <p>Password Protected</p>
@@ -96,7 +96,7 @@ function Footer() {
         </div>
       </section>
       <section >
-        <p className="text-[#ADB29E] text-center mt-16 pb-9"> Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        <p className="text-white text-center mt-16 pb-9"> Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
       </section>
     </main>
   );

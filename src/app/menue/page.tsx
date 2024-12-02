@@ -28,7 +28,7 @@ export default async function MenuePage() {
   const b = disheRes.slice(0,2)
   const c = drinkRes.slice(0,2)
   const d = dessertRes.slice(2,4)
-  
+
 
   const allItems = a.concat(b,c,d)
 
@@ -39,7 +39,7 @@ export default async function MenuePage() {
         { allItems.map((menue: Menue) => (
           <div
             key={menue.id}
-            className="lg:w-full w-full md-lg:w-[340px] screen:w-[325px] md:w-full h-auto bg-[#f1f7e2] rounded-2xl shadow-lg"
+            className="lg:w-full w-full md-lg:w-[340px] screen:w-[325px] md:w-full h-auto bg-white rounded-2xl shadow-lg"
           >
             <div className="w-full h-56 rounded-3xl relative">
               <Image

@@ -24,7 +24,7 @@ export default async function dishes() {
         {res.map((menue: Menue) => (
           <div
             key={menue.id}
-            className="lg:w-full w-full md-lg:w-[340px] screen:w-[325px] md:w-full h-auto bg-[#f1f7e2] rounded-2xl shadow-lg"
+            className="lg:w-full w-full md-lg:w-[340px] screen:w-[325px] md:w-full h-auto bg-slate-100 rounded-2xl shadow-lg"
           >
             <div className="w-full h-56 rounded-3xl relative">
               <Image

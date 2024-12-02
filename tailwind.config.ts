@@ -9,6 +9,8 @@ export default {
   ],
   theme: {
   	extend: {
+
+		
            screens :{
                'screen' : {
 				   min : '1024' , max : '1075'

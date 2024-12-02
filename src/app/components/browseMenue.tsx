@@ -53,7 +53,7 @@ export default function Browse_menue() {
                   <Image src={menue.image} height={50} width={100} alt={`${menue.title} `} className="mt-6" />
                        <h2 className="text-2xl font-bold text-[#2C2F24] mt-7 mb-4">{menue.title}</h2>
                        <p className="text-[#414536] mx-4 mb-7">{menue.description}</p>
-                       <Button variant="ghost" ><Link href="/menue" className="text-[#AD343E] font-bold mb-6">Explore Menu</Link></Button>
+                       <Button variant="ghost" ><Link href="/menue" className="text-[#AD343E] font-bold ">Explore Menu</Link></Button>
                 </CardContent>
               </Card>
             </div>

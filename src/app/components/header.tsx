@@ -57,10 +57,15 @@ function Header() {
         <Link href={'/cart'}><FaCartArrowDown className="text-[#AD343E]  hidden sm:hidden   md:block text-3xl"/> </Link>
         </div>    
         <Sheet   >
-          <SheetTrigger asChild  >
-          
-            <Button variant="outline" className='sm:block h-8 w-8 font-bold border-none text-7xl md:hidden lg:hidden text-center' ><IoMdMenu/></Button>
-          </SheetTrigger>
+        < SheetTrigger asChild  >
+        <Button
+      variant="outline"
+      className="sm:block  font-bold border-none text-5xl md:hidden lg:hidden text-center flex items-center justify-center"
+    >
+      <IoMdMenu className="text-4xl" /> {/* Increase icon size here */}
+    </Button>
+            {/* <Button variant="outline" className='sm:block h-8 w-8 font-bold border-none text-7xl md:hidden lg:hidden text-center' ><IoMdMenu /></Button> */}
+          </SheetTrigger> 
           <SheetContent className="bg-[#AD343E] opacity-90 text-white">
             <SheetHeader >
               <SheetTitle className="flex justify-center gap-2 mt-8" >  <Image src={'/image/footerlogo.png'} width={32} height={32} alt="logo" className="h-8 w-10 " /> <p className="text-3xl  text-white"> Bistro Bliss </p></SheetTitle>

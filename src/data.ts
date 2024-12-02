@@ -32,7 +32,7 @@ export const breakFast:Menue[] = [
         'price': 8.6,
         'about': 'A flaky, golden flatbread made with layers of dough and cooked to crispy perfection.',
         'description': 'Our Paratha is a traditional favorite, featuring soft layers of dough folded and cooked on a hot griddle to achieve a perfectly crispy and golden finish. Whether enjoyed on its own or paired with curries, yogurt, or chutneys, it’s a versatile delight that satisfies any time of day!',
-        'image': '/image/breakFast/Paratha.png'
+        'image': '/image/breakFast/paratha.png'
     },
     {
         'id': 4,

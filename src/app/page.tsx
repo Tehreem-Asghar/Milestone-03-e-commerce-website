@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <div>
       <main className="mb-32">
-       {/* hero section */}
-        <section className="relative w-full h-auto">
-          <Image src={'/image/Hero.png'} height={400} width={400} alt="hero" className="w-full h-[550]" />
+       {/* hero section 550*/}
+        <section className="relative w-full h-full">
+          <Image src={'/image/Hero.png'} height={400} width={400} alt="hero" className="w-full h-[100vh]" />
           <div className="flex flex-col justify-center items-center absolute inset-0 font-serif px-4  bg-opacity-40 sm:bg-transparent  sm:text-[#2C2F24] ">
-            <h2 className="md:text-6xl sm:text-5xl text-4xl">Best food for</h2>
+            <h2 className="md:text-6xl sm:text-5xl text-4xl ">Best food for</h2>
             <h2 className="md:text-6xl sm:text-5xl text-4xl">your taste </h2>
             <p className="mx-6 text-center mt-2">Discover delectable cuisine and unforgettable moments<br/> in our welcoming, culinary haven. </p>
             <div className="flex gap-4 mt-4">

@@ -5,7 +5,7 @@ export default function Page() {
     <main className="h-full">
       {/* Booking Section */}
       <section className="flex flex-col items-center">
-        <h1 className="text-[#2C2F24] text-6xl font-serif font-medium my-6 text-center">
+        <h1 className="text-[#2C2F24] md:text-6xl sm:text-5xl text-3xl font-serif font-medium my-6 text-center">
           Book A Table
         </h1>
         <p className="text-[#495460] text-center">
