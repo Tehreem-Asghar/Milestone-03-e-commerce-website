@@ -54,7 +54,6 @@ export default function Comments() {
                                                  <h5>{menue.about}</h5>
                                                </div>
                                             </div>
-
                                         </CardContent>
                                     </Card>
                                 </div>
