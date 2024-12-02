@@ -6,7 +6,7 @@ export default function about() {
     return (
         <main className="h-full w-full mb-9 bg-[#F9F9F7]">
             <section className=" h-auto  w-full  px-3 mt-11  flex  lg:flex-row flex-col ">
-                <div className="lg:w-1/2 w-full px-4 flex justify-start ">
+                <div className="lg:w-1/2 w-full px-4 flex justify-start  sm:h-[350] h-[250]">
                     <Image src={'/image/about/about1.png'} height={556} width={599} alt="healthy food" className="sm:h-[350] h-[250] w-full shadow-lg" />
                 </div>
                 <div className="lg:w-1/2 w-full  mt-4  md:pr-9 h-auto md:pl-9 p-2">
@@ -55,7 +55,7 @@ export default function about() {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-2/4 w-full h-auto px-7'>
+                <div className='md:w-2/4 w-full  px-7  md:h-[500]  sm:h-[300]'>
                     <Image src={'/image/about/about-2.png'} width={555} height={680} alt='resturent' className='w-full md:h-[500]  sm:h-[300] shadow-md'/>
                 </div>
             </section>
