@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Restaurant E-Commerce Website
 
-## Getting Started
+This is a **Restaurant E-Commerce Website** built using **Next.js** and **Tailwind CSS**. The website allows users to browse the menu, add items to their cart, and proceed with checkout. The website includes various routes such as Home, About, Contact, Book a Table, Cart, and multiple menu categories like Breakfast, Dishes, Drinks, Desserts, and All.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page**: Displays the restaurant's introduction and featured menu items.
+- **Menu**: Allows users to browse and view items under categories like Breakfast, Dishes, Drinks, Desserts, and All.
+- **Cart Page**: Users can add items to their cart and proceed to checkout.
+- **Book a Table**: Users can reserve a table for dining.
+- **Contact Page**: Contact details for customer inquiries.
+- **Responsive Design**: The website is fully responsive and adapts to mobile, tablet, and desktop screens.
+- **API Routes**: Custom API routes fetch data such as menu items and other restaurant details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: For building a server-side rendered React application.
+- **Tailwind CSS**: For styling the website using utility-first CSS.
+- **React**: For creating the user interface.
+- **Node.js**: For running the server-side logic.
+- **Figma**: For designing the website before development.

@@ -9,6 +9,22 @@ export default {
   ],
   theme: {
   	extend: {
+           screens :{
+               'screen' : {
+				   min : '1024' , max : '1075'
+			   },
+			'md-lg' :{
+				min : '1070px' , max : '1117'
+			},
+			'small' : {
+                       min : '0' , max : '380'
+			},
+			'ipaid' : {
+                       min : '0' , max : '380'
+			}
+		   },
+
+
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
