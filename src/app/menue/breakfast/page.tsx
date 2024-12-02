@@ -15,7 +15,7 @@ import Link from "next/link";
 import CartButton from "@/app/components/addCartButton";
 
 export default async function breakfast() {
-  const req  = await fetch(`/api/breakfast`,{cache : "no-store"});
+  const req  = await fetch(`https://milestone-03-e-commerce-website.vercel.app/api/breakfast`,{cache : "no-store"});
   const res: Menue[] = await req.json();
 
   return (

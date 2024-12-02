@@ -15,19 +15,20 @@ import Link from "next/link";
 import CartButton from "@/app/components/addCartButton";
 
 export default async function MenuePage() {
-  const req = await fetch(`/api/breakfast`,{cache : "no-store"});
+  const req = await fetch(`https://milestone-03-e-commerce-website.vercel.app/api/breakfast`,{cache : "no-store"});
   const res: Menue[] = await req.json();
-  const dishes = await fetch(`/api/dishes`,{cache : "no-store"})
+  const dishes = await fetch(`https://milestone-03-e-commerce-website.vercel.app/api/dishes`,{cache : "no-store"})
   const disheRes : Menue[]=await dishes.json();
-  const drinks = await fetch(`/api/drinks`,{cache : "no-store"})
+  const drinks = await fetch(`https://milestone-03-e-commerce-website.vercel.app/api/drinks`,{cache : "no-store"})
   const drinkRes : Menue[] = await drinks.json();
-  const desserts = await fetch(`/api/desserts`,{cache : "no-store"})
+  const desserts = await fetch(`https://milestone-03-e-commerce-website.vercel.app/api/desserts`,{cache : "no-store"})
   const dessertRes : Menue[] = await desserts.json();
 
   const a = res.slice(0,2)
   const b = disheRes.slice(0,2)
   const c = drinkRes.slice(0,2)
   const d = dessertRes.slice(2,4)
+  
 
   const allItems = a.concat(b,c,d)
 
