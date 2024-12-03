@@ -6,8 +6,8 @@ export default function about() {
     return (
         <main className="h-full w-full mb-9 bg-[#F9F9F7]">
             <section className=" h-auto  w-full  px-3 mt-11  flex  lg:flex-row flex-col ">
-                <div className="lg:w-1/2 w-full px-4 flex justify-start  sm:h-[350] h-[250]">
-                    <Image src={'/image/about/about1.png'} height={350} width={599} alt="healthy food" className="sm:h-[350] h-[250] object-cover w-full shadow-lg" />
+                <div className="lg:w-1/2 w-full px-4 flex justify-start  h-[250px] sm:h-[350px] ">
+                    <Image src={'/image/about/about1.png'} height={350} width={599} alt="healthy food" className="sm:h-[350px] h-[250px] object-cover w-full shadow-lg" />
                 </div>
                 <div className="lg:w-1/2 w-full  mt-4  md:pr-9 h-auto md:pl-9 p-2">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-medium text-[#2C2F24] font-serif">We provide healthy  food for your family.</h1>
@@ -57,8 +57,8 @@ export default function about() {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-2/4 w-full  px-7 h-[300] md:h-[500]  sm:h-[300]'>
-                    <Image src={'/image/about/about-2.png'} width={555} height={450} alt='resturent' className='w-full md:h-[500] object-cover  sm:h-[300] shadow-md'/>
+                <div className='md:w-2/4 w-full  px-7 h-[300px] md:h-[500px]  sm:h-[300px]'>
+                    <Image src={'/image/about/about-2.png'} width={555} height={450} alt='resturent' className='w-full md:h-[500px] object-cover  sm:h-[300px] shadow-md'/>
                 </div>
             </section>
 
