@@ -6,8 +6,8 @@ export default function about() {
     return (
         <main className="h-full w-full mb-9 bg-[#F9F9F7]">
             <section className=" h-auto  w-full  px-3 mt-11  flex  lg:flex-row flex-col ">
-                <div className="lg:w-1/2 w-full px-4 flex justify-start  sm:h-[350] h-[250]">
-                    <Image src={'/image/about/about1.png'} height={556} width={599} alt="healthy food" className="sm:h-[350] h-[250] w-full shadow-lg" />
+                <div className="lg:w-1/2 w-full px-4 flex justify-start   h-[250]">
+                    <Image src={'/image/about/about1.png'} height={556} width={599} alt="healthy food" className=" h-[250] w-full shadow-lg" />
                 </div>
                 <div className="lg:w-1/2 w-full  mt-4  md:pr-9 h-auto md:pl-9 p-2">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-medium text-[#2C2F24] font-serif">We provide healthy  food for your family.</h1>
