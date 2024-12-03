@@ -48,7 +48,7 @@ export default function about() {
       {/* little Information */}
       <section className="mt-14 flex flex-col md:flex-row  gap-5 ">
         <div className="md:w-2/4 w-full h-auto pt-8  px-10">
-          <h2 className="text-3xl font-serif font-medium text-center mb-8">
+          <h2 className="sm:text-3xl text-2xl font-serif font-medium sm:text-center mb-8">
             A little information
             <br /> for our valuable guest
           </h2>
@@ -93,7 +93,7 @@ export default function about() {
 
       {/* comments */}
       <section>
-        <h2 className="text-3xl font-serif font-medium text-center mt-12 my-7">
+        <h2 className="sm:text-3xl text-2xl font-serif font-medium text-center mt-12 my-7">
           What Our Customers Say
         </h2>
         <Comments />

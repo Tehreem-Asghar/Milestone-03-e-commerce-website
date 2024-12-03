@@ -43,8 +43,8 @@ export default function Comments() {
                         {BrowseMenue.map((menue) => (
                             <CarouselItem key={menue.id} className=" md:basis-1/2 lg:basis-1/3   ">
                                 <div className="">
-                                    <Card className="rounded-2xl shadow-lg  h-[350]">
-                                        <CardContent className="flex aspect-square items-center    w-full h-[350] rounded-2xl   flex-col ">
+                                    <Card className="rounded-2xl shadow-lg  h-[350px]">
+                                        <CardContent className="flex aspect-square items-center    w-full h-[350px] rounded-2xl   flex-col ">
                                             <h2 className="text-2xl font-bold  mt-6 mb-2 self-start  text-[#AD343E]">{menue.title}</h2>
                                             <p className="text-[#414536]  self-start">{menue.description}</p>
                                             <div className="mt-5 border border-t-slate-400  h-auto w-full flex gap-6  p-4">
