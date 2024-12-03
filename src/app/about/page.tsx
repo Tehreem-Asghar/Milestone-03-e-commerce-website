@@ -45,33 +45,50 @@ export default function about() {
             </section>
 
             {/* little Information */}
-                        <section className='mt-14 flex flex-col md:flex-row  gap-5 '>
-                <div className='md:w-2/4 w-full h-auto pt-8  px-10'>
-                    <h2 className='text-3xl font-serif font-medium text-center mb-8'>A little information<br/> for our valuable guest</h2>
-                    <p className='text-[#414536]'>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-                    <div className='w-full h-auto grid grid-cols-2 mt-3 sm:justify-center justify-start gap-2 sm:px-12 font-serif'>
-                        <div className='w-full h-32 shadow-lg border border-gray-200 rounded-3xl flex flex-col items-center justify-center '>
-                            <h3 className='sm:text-3xl text-2xl'>3</h3>
-                            <p className='sm:text-xl text-sm'>Locations</p>
-                        </div>
-                        <div  className='w-full h-32 shadow-lg border border-gray-200 rounded-3xl flex flex-col items-center justify-center'>
-                            <h3 className='sm:text-3xl text-2xl'>1995</h3>
-                            <p className='sm:text-xl text-sm'>Founded</p>
-                        </div>
-                        <div className='w-full shadow-lg h-32 border border-gray-200 rounded-3xl flex flex-col items-center justify-center'>
-                            <h3 className='sm:text-3xl text-2xl'>6<sub className='sm:text-4xl text-3xl'>5</sub>+</h3>
-                            <p className='sm:text-xl text-sm'>Founded</p>
-                        </div>
-                        <div className='w-full shadow-lg h-32 border border-gray-200 rounded-3xl flex flex-col items-center justify-center'>
-                            <h3 className='sm:text-3xl text-2xl'>100%</h3>
-                            <p className='sm:text-xl text-sm text-center'>Satisfied Customers</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='md:w-2/4 w-full  px-7  md:h-[500]  sm:h-[300]'>
-                    <Image src={'/image/about/about-2.png'} width={555} height={680} alt='resturent' className='w-full md:h-[500]  sm:h-[300] shadow-md'/>
-                </div>
-            </section>
+                <section className="mt-14 flex flex-col md:flex-row gap-5">
+  <div className="md:w-2/4 w-full h-auto pt-8 px-10">
+    <h2 className="text-3xl font-serif font-medium text-center mb-8">
+      A little information
+      <br /> for our valuable guest
+    </h2>
+    <p className="text-[#414536]">
+      At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
+    </p>
+    <div className="w-full h-auto grid grid-cols-2 mt-3 sm:justify-center justify-start gap-2 sm:px-12 font-serif">
+      <div className="w-full h-32 shadow-lg border border-gray-200 rounded-3xl flex flex-col items-center justify-center">
+        <h3 className="sm:text-3xl text-2xl">3</h3>
+        <p className="sm:text-xl text-sm">Locations</p>
+      </div>
+      <div className="w-full h-32 shadow-lg border border-gray-200 rounded-3xl flex flex-col items-center justify-center">
+        <h3 className="sm:text-3xl text-2xl">1995</h3>
+        <p className="sm:text-xl text-sm">Founded</p>
+      </div>
+      <div className="w-full shadow-lg h-32 border border-gray-200 rounded-3xl flex flex-col items-center justify-center">
+        <h3 className="sm:text-3xl text-2xl">
+          6<sub className="sm:text-4xl text-3xl">5</sub>+
+        </h3>
+        <p className="sm:text-xl text-sm">Founded</p>
+      </div>
+      <div className="w-full shadow-lg h-32 border border-gray-200 rounded-3xl flex flex-col items-center justify-center">
+        <h3 className="sm:text-3xl text-2xl">100%</h3>
+        <p className="sm:text-xl text-sm text-center">
+          Satisfied Customers
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="md:w-2/4 w-full px-7 h-auto">
+    <Image
+      src="/image/about/about-2.png"
+      alt="restaurant"
+      layout="responsive"
+      width={555}
+      height={680}
+      className="w-full h-full object-cover shadow-md"
+    />
+  </div>
+</section>
+
 
              {/* comments */}
          <section>
